@@ -7,12 +7,6 @@ public class Calculator
             throw new ArgumentException("Array must not be null or empty");
         }
 
-        double sum = 0;
-        foreach (int num in nums)
-        {
-            sum += num;
-        }
-
-        return sum / nums.Length;
-    }
+        return nums.Average()
+    } 
 }
