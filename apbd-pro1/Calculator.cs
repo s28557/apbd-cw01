@@ -7,7 +7,13 @@ public class Calculator
             throw new ArgumentException("Array must not be null or empty");
         }
 
+<<<<<<< HEAD
         return nums.Average();
+=======
+        double average = nums.Average();
+
+        return average;
+>>>>>>> feature-new
     } 
 
     public static int FindMax(int[] nums)
