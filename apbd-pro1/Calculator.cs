@@ -1,6 +1,6 @@
 public class Calculator
 {
-    public static double FindAvg(int[] nums)
+    public static double FindAverage(int[] nums)
     {
         if (nums == null || nums.Length == 0)
         {
